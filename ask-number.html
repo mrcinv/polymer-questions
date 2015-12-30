@@ -1,0 +1,49 @@
+<!-- Import x-tag -->
+<script src="../x-tag-core/src/core.js"></script>
+
+<script>
+(function() {
+    // Registers custom element
+    xtag.register('ask-number', {
+        content: '<input type="number" placeholder="3.14..."/><div class="feedback"></div>',
+        lifecycle: {
+            // Fires when an instance of the element is created
+            created: function() {},
+
+            // Fires when an instance was inserted into the document
+            inserted: function() {},
+
+            // Fires when an instance was removed from the document
+            removed: function() {},
+
+            // Fires when an attribute was added, removed, or updated
+            attributeChanged: function(attr, oldVal, newVal) {}
+        },
+        events: {
+          'change': function(){
+            console.log(this.answer);
+            this.check();
+          }
+        },
+        accessors: {
+          answer:{
+            attribute: {},
+            get: function (){
+              var input = xtag.query(this,'input');
+              return input[0].value;
+            },
+          }
+        },
+        methods: {
+          check: function(){
+            if (this.answer == this.getAttribute('correct-answer')) {
+              console.log("Correct!")
+            }
+            else {
+              console.log("Wrong!")
+            }
+          }
+        }
+    });
+}());
+</script>
