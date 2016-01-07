@@ -1,0 +1,27 @@
+{
+  "name": "xtag-questions",
+  "description": "Custom element to ask for a number and check it is the same as the answer attribute.",
+  "license": "GPL-3",
+  "main": "ask-number.html",
+  "keywords": [
+    "x-tag",
+    "web-components"
+  ],
+  "ignore": [
+    "**/.*",
+    "bower_components"
+  ],
+  "dependencies": {
+    "x-tag-core": "^1.0.14"
+  },
+  "homepage": "https://github.com/mrcinv/xtag-questions",
+  "_release": "9d5e4f3c53",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "9d5e4f3c53d958bb885984467d816b3fcb79e992"
+  },
+  "_source": "git://github.com/mrcinv/xtag-questions.git",
+  "_target": "master",
+  "_originalSource": "mrcinv/xtag-questions"
+}

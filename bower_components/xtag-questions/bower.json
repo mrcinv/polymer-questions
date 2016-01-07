@@ -1,0 +1,18 @@
+{
+    "name": "xtag-questions",
+    "version": "0.0.0",
+    "description": "Custom element to ask for a number and check it is the same as the answer attribute.",
+    "license": "GPL-3",
+    "main": "ask-number.html",
+    "keywords": [
+        "x-tag",
+        "web-components"
+    ],
+    "ignore": [
+        "**/.*",
+        "bower_components"
+    ],
+    "dependencies": {
+        "x-tag-core": "^1.0.14"
+    }
+}
