@@ -11,7 +11,7 @@
 Install the component using [Bower](http://bower.io/):
 
 ```sh
-$ bower install xtag-questions --save
+$ bower install mrcinv/xtag-questions --save
 ```
 
 Or [download as ZIP](https://github.com/mrcinv/xtag-questions/archive/master.zip).
