@@ -33,7 +33,7 @@ Or [download as ZIP](https://github.com/mrcinv/xtag-questions/archive/master.zip
 3. Start using it!
 
     ```html
-    <ask-number></ask-number>
+    <ask-number correct-answer="3.1415"></ask-number>
     ```
 
 ## Options
